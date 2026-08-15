@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop-application">
+  <id>com.idleendeavour.ThingsGNOME</id>
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>GPL-3.0-or-later</project_license>
+  <name>Things for GNOME</name>
+  <summary>View your Things 3 tasks natively on GNOME</summary>
+  <description>
+    <p>
+      An unofficial, native GNOME client that reads your Things 3 tasks from
+      Things Cloud, so you can see your Inbox, Today, Upcoming, Anytime, Someday
+      and Logbook on Linux without reaching for your Mac or iPhone.
+    </p>
+    <p>
+      Read-only in this version. Not affiliated with Cultured Code.
+    </p>
+  </description>
+  <launchable type="desktop-id">com.idleendeavour.ThingsGNOME.desktop</launchable>
+  <developer id="com.idleendeavour"><name>IdleEndeavour</name></developer>
+  <content_rating type="oars-1.1"/>
+  <categories>
+    <category>Office</category>
+    <category>ProjectManagement</category>
+  </categories>
+  <releases>
+    <release version="0.1.0" date="2026-06-13">
+      <description><p>First release: live Things Cloud sync, native sidebar and lists.</p></description>
+    </release>
+  </releases>
+</component>

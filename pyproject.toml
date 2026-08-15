@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "things-gnome"
+version = "0.1.0"
+description = "Native GNOME client for viewing Things 3 tasks via Things Cloud (unofficial)"
+readme = "README.md"
+requires-python = ">=3.11"
+license = { text = "GPL-3.0-or-later" }
+dependencies = [
+    "requests>=2.28",
+    # PyGObject is provided by the system (python3-gobject) on Fedora.
+    # keyring is optional but recommended for secure password storage:
+    "keyring>=24",
+]
+
+[project.scripts]
+things-gnome = "thingsgnome.application:main"
+
+[tool.setuptools.packages.find]
+include = ["thingsgnome*"]

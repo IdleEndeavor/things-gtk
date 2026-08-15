@@ -1,0 +1,11 @@
+[Desktop Entry]
+Type=Application
+Name=Things for GNOME
+GenericName=To-Do Manager
+Comment=View your Things 3 tasks from Things Cloud, natively on GNOME
+Exec=things-gnome
+Icon=com.idleendeavour.ThingsGNOME
+Terminal=false
+Categories=GTK;GNOME;Office;ProjectManagement;
+Keywords=todo;tasks;things;gtd;productivity;
+StartupNotify=true
